@@ -1,31 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Penguin Fashion</title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-    <header>
-        <div class="flex">
-            <div>
-                <h1 class="text-7xl uppercase">
-                    <span class="text-[#FABE4C]">Be the Penguins</span><br>
-                    of Winter</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing 
-                    and typesetting industry.</p>
-            </div>
-            <div>
-                <img src="images/model.png" alt="">
-            </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        .bebas{
+            font-family: 'Bebas Neue', sans-serif;
+        }
+    </style>
+  </head>
+  <body>
+    <nav></nav>
+    <header class="bg-amber-100 p-3 md:px-32 py-24">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class=" space-y-3">
+          <h1 class="text-7xl uppercase bebas">
+            <span class="text-[#FABE4C]">Be the Penguins</span><br />
+            of Winter
+          </h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <button
+            class="py-4 px-6 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-xl uppercase text-white font-medium flex items-center"
+          >
+            <img class="h-7 px-2" src="icons/shopping-cart 1.png" alt="" />Buy
+            Now
+          </button>
         </div>
+        <div>
+          <img src="images/model.png" alt="" />
+        </div>
+      </div>
     </header>
-    <main>
-
+    <main class="max-w-7xl mx-auto">
+        <section class="py-12">
+            <h1 class="text-5xl uppercase bebas">W0Man Jacket</h1>
+        </section>
     </main>
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>
