@@ -27,16 +27,26 @@
     </style>
   </head>
   <body>
-    <nav></nav>
-    <header class="bg-amber-100 p-3 md:px-32 py-24">
+    <header class="bg-[#FFFBF0] p-3 md:px-32 pt-12 py-24">
+      <nav class="flex flex-col md:flex-row justify-between items-center pb-10">
+        <div>
+          <img  class="h-10" src="icons/logo.png" alt="">
+        </div>
+        <div class="flex flex-col  md:flex-row list-none font-medium text-2xl roboto">
+          <li class="pr-10">Home</li>
+          <li class="pr-10">Product</li>
+          <li class="pr-10">About Us</li>
+          <li>Contact</li>
+        </div>
+      </nav>
       <div class="flex flex-col md:flex-row justify-between items-center">
         <div class="space-y-3">
           <h1 class="text-7xl uppercase bebas">
             <span class="text-[#FABE4C]">Be the Penguins</span><br />
             of Winter
           </h1>
-          <p class="roboto">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
+          <p class="roboto text-sm">
+            Lorem Ipsum is simply dummy text of the printing <br> and typesetting
             industry.
           </p>
           <button
@@ -54,7 +64,9 @@
     <main class="max-w-7xl mx-auto px-5">
       <section class="py-12">
         <h1 class="text-5xl uppercase bebas">W0Man Jacket</h1>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 roboto">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 roboto"
+        >
           <!-- jacket-1 -->
           <div class="space-y-3 shadow-xl p-4 rounded-2xl">
             <div class="bg-[#F1F1F1] p-5 rounded-2xl">
@@ -126,8 +138,10 @@
           </div>
         </div>
 
-        <h1 class="text-5xl  mt-20 uppercase bebas">Man Jacket</h1>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 roboto">
+        <h1 class="text-5xl mt-20 uppercase bebas">Man Jacket</h1>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 roboto"
+        >
           <!-- jacket-1 -->
           <div class="space-y-3 shadow-xl p-4 rounded-2xl">
             <div class="bg-[#F1F1F1] p-5 rounded-2xl">
@@ -200,6 +214,52 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <section class="max-w-7xl mx-auto px-5 py-9">
+        <div class="flex flex-col md:flex-row roboto">
+          <div class="mb-10">
+            <div
+              class="flex px-7 py-7 pr-20 items-center rounded-2xl shadow-lg"
+            >
+              <img class="h-20 pr-5" src="icons/house.png" alt="" />
+              <span>
+                <h1 class="text-2xl font-bold">Find the Perfect Fit</h1>
+                <p class="text-l">
+                  Everybody is different, which is why we <br />
+                  offer styles for every body.
+                </p>
+              </span>
+            </div>
+            <div
+              class="flex px-7 py-7 pr-20 items-center rounded-2xl shadow-lg"
+            >
+              <img class="h-20 pr-5" src="icons/box.png" alt="" />
+              <span>
+                <h1 class="text-2xl font-bold">Free Exchanges</h1>
+                <p class="text-l">
+                  One of the many reasons you can shop <br />
+                  with peace of mind.
+                </p>
+              </span>
+            </div>
+            <div
+              class="flex px-7 py-7 pr-20 items-center rounded-2xl shadow-lg"
+            >
+              <img class="h-20 pr-5" src="icons/question.png" alt="" />
+              <span>
+                <h1 class="text-2xl font-bold">Contact Our Seller</h1>
+                <p class="text-l">
+                  They are here to help you. That's quite <br />
+                  literally what we pay them for.
+                </p>
+              </span>
+            </div>
+          </div>
+          <div class="max-w-2xl mx-auto px-5">
+            <img src="images/shopping.png" alt="">
+          </div>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
